@@ -1,8 +1,9 @@
 import os, json, time
 import requests
 
-ALCHEMY_API = "https://opt-mainnet.g.alchemy.com/nft/v2/{}/getOwnersForToken?contractAddress={}&tokenId={}&pageKey=1&pageSize={}"
+ALCHEMY_API = "https://{}.g.alchemy.com/nft/v2/{}/getOwnersForToken?contractAddress={}&tokenId={}&pageKey=1&pageSize={}"
 ALCHEMY_KEY = os.getenv('KEY_ALCHEMY_POOPZTER')
+CHAIN       = "opt-mainnet"
 CONTRACT    = "0x32F277cEce2Ba12029E07c6C1D1eBA63F1Bb518b"
 IDS         = [ 8, 9, 10 ] # TODO
 PAGE_SIZE   = 5_000
@@ -10,7 +11,7 @@ OUT_PATH    = "./json/piece_of_og/{}.json"
 
 for id in IDS:
     # craft url
-    url = ALCHEMY_API.format(ALCHEMY_KEY, CONTRACT, id, PAGE_SIZE)
+    url = ALCHEMY_API.format(CHAIN, ALCHEMY_KEY, CONTRACT, id, PAGE_SIZE)
 
     # fetch data
     response = requests.get(url)

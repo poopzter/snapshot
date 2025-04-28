@@ -1,8 +1,9 @@
 import os, json, time
 import requests
 
-ALCHEMY_API = "https://soneium-mainnet.g.alchemy.com/nft/v2/{}/getOwnersForToken?contractAddress={}&tokenId={}&pageKey=1&pageSize={}"
+ALCHEMY_API = "https://{}.g.alchemy.com/nft/v2/{}/getOwnersForToken?contractAddress={}&tokenId={}&pageKey=1&pageSize={}"
 ALCHEMY_KEY = os.getenv('KEY_ALCHEMY_POOPZTER')
+CHAIN       = "soneium-mainnet"
 CONTRACT    = "0xA9213211Ac66aFB650C3b501bdD538013A35442f"
 FROM_ID     = 1
 TO_ID       = 3 # TODO
@@ -11,7 +12,7 @@ OUT_PATH    = "./json/piece_on_soneium/{}.json"
 
 for id in range(FROM_ID, TO_ID+1):
     # craft url
-    url = ALCHEMY_API.format(ALCHEMY_KEY, CONTRACT, id, PAGE_SIZE)
+    url = ALCHEMY_API.format(CHAIN, ALCHEMY_KEY, CONTRACT, id, PAGE_SIZE)
 
     # fetch data
     response = requests.get(url)
