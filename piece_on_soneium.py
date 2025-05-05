@@ -6,7 +6,7 @@ ALCHEMY_KEY = os.getenv('KEY_ALCHEMY_POOPZTER')
 CHAIN       = "soneium-mainnet"
 CONTRACT    = "0xA9213211Ac66aFB650C3b501bdD538013A35442f"
 FROM_ID     = 1
-TO_ID       = 3 # TODO
+TO_ID       = 10
 PAGE_SIZE   = 5_000
 OUT_PATH    = "./json/piece_on_soneium/{}.json"
 

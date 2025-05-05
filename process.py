@@ -4,7 +4,7 @@ from web3.utils.address import to_checksum_address
 JSON_PATH   = "./json/piece_on_soneium/{}.json"
 CSV_PATH    = "./out/{}.csv"
 FROM_ID     = 1
-TO_ID       = 3 # TODO
+TO_ID       = 10
 
 # load data
 counter  = {}
