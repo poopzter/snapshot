@@ -1,0 +1,36 @@
+[
+  {
+    "hash": "0xbffb7932336088c8ceb8406a4189a1489f1d2abcc5faa5ce8b3bb0512b303d7f",
+    "fee": "0.000001916735614686",
+    "gasUsed": "1_844_322",
+    "gasPrice": "1_039_263"
+  },
+  {
+    "hash": "0xcaf3f90a1190b8f7f26ed4a39c55a36fe4853ab60c7229077061b50acfd2aec4",
+    "fee": "0.000001792625321814",
+    "gasUsed": "1_724_718",
+    "gasPrice": "1_039_373"
+  },
+  {
+    "hash": "0x3a6e6917abcbf1e9bac471d945bda1959e3e85bd8e10884ed9ee9f86152c98e0",
+    "fee": "0.000001792938532308",
+    "gasUsed": "1_724_646",
+    "gasPrice": "1_039_598"
+  },
+  {
+    "hash": "0x9387060ad1bc70fd9c42372254e766fade07709dceb5e6d3e9a09118438fc571",
+    "fee": "0.000000566902089564",
+    "gasUsed": "1_758_894",
+    "gasPrice": "322_306"
+  },
+  {
+    "hash": "0x2041c794d07058ecbf5ff3152577ba1e8b5afeef6d1c54cda7936f2605922882",
+    "fee": "0.000000535218455619",
+    "gasUsed": "989_337",
+    "gasPrice": "540_987"
+  },
+  {
+    "totalGasUsed": "8_041_917",
+    "totalFee": "0"
+  }
+]

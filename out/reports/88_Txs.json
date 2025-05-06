@@ -1,0 +1,90 @@
+[
+  {
+    "hash": "0x1b6af7269c721b0a6308a70ffbdba8f52fa0c73dd642b7fa68c61edacaf1b569",
+    "fee": "0.00000008288819475",
+    "gasUsed": "1_878_486",
+    "gasPrice": "44_125"
+  },
+  {
+    "hash": "0x377ba6fefaaf72608661ea1057b5854a1df6d707117c0127e437368cb5b525e7",
+    "fee": "0.000000088228389942",
+    "gasUsed": "1_758_834",
+    "gasPrice": "50_163"
+  },
+  {
+    "hash": "0x57849eb4e1bfc6f792c967991cd4625ae622e961af3e4027f5f130509bea7200",
+    "fee": "0.00000191758877589",
+    "gasUsed": "1_844_394",
+    "gasPrice": "1_039_685"
+  },
+  {
+    "hash": "0x95f191696c1d4314edd51fc7c7b181a43f655d06b078df0711bd4be12d315111",
+    "fee": "0.000001828867418106",
+    "gasUsed": "1_758_846",
+    "gasPrice": "1_039_811"
+  },
+  {
+    "hash": "0x25cf38dcc1b4003bec4b3f814d4f2b4fd4fbbdf20fbe692c5511ba6561635898",
+    "fee": "0.000001986772295214",
+    "gasUsed": "1_912_806",
+    "gasPrice": "1_038_669"
+  },
+  {
+    "hash": "0x3017ca9b8b7664fbc1e8bef51d1666d6df87138ebca05d61daf04aec9e4b0098",
+    "fee": "0.00000024593447682",
+    "gasUsed": "1_707_570",
+    "gasPrice": "144_026"
+  },
+  {
+    "hash": "0x858b1d9e53e6b42c3cd94f26ef5e16048648bf77f83b0ad00ac591bc26e3f1ba",
+    "fee": "0.000000089762659812",
+    "gasUsed": "1_810_242",
+    "gasPrice": "49_586"
+  },
+  {
+    "hash": "0xf1de271f2ff4f0d118978915528d229f9573ecbe986d6e68cf4f4df740b7c069",
+    "fee": "0.00000039881298933",
+    "gasUsed": "1_724_634",
+    "gasPrice": "231_245"
+  },
+  {
+    "hash": "0x401dc63289841c18423702b9250e9cb574d637e3a3c59a7ebb421812ed87a735",
+    "fee": "0.000000359246047878",
+    "gasUsed": "1_861_446",
+    "gasPrice": "192_993"
+  },
+  {
+    "hash": "0x770734bb5bece35b38a5c52938a6db48eb2c9f1ced2901ab081d8adad3c2f84b",
+    "fee": "0.00000175781389806",
+    "gasUsed": "1_690_482",
+    "gasPrice": "1_039_830"
+  },
+  {
+    "hash": "0xfedc30034da8022c2ef6b226cfed8d48a262f0da73ac881aa7300f1dd5779124",
+    "fee": "0.00000008471605182",
+    "gasUsed": "1_912_758",
+    "gasPrice": "44_290"
+  },
+  {
+    "hash": "0x596f0fc4526f61451ba07973dea94322647882e4ac3b174b67e3c9dc4bc71d34",
+    "fee": "0.000001811097100482",
+    "gasUsed": "1_741_746",
+    "gasPrice": "1_039_817"
+  },
+  {
+    "hash": "0xeb7191991a3bb2765c0c8034ba2560256704d73292743c836069c562bcdb0c31",
+    "fee": "0.00000168669888465",
+    "gasUsed": "1_622_130",
+    "gasPrice": "1_039_805"
+  },
+  {
+    "hash": "0x0287bb02e8b2e2d471c949fa50e33c912acb7472601ca0db6cbe6bcd11790de9",
+    "fee": "0.000001789566721695",
+    "gasUsed": "1_720_815",
+    "gasPrice": "1_039_953"
+  },
+  {
+    "totalGasUsed": "24_945_189",
+    "totalFee": "0"
+  }
+]
