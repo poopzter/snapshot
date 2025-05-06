@@ -1,0 +1,18 @@
+[
+  {
+    "hash": "0x56e118e93801381b205c78fcbcbaf30dcc0dd166e8d0c8c480d4f901034a88b5",
+    "fee": "0.00000069117085134",
+    "gasUsed": "1_281_270",
+    "gasPrice": "539_442"
+  },
+  {
+    "hash": "0x16c10148c400b6fc8939e5b6ba733d6f28f2c707a68cf2bb665d5b8275b1bc46",
+    "fee": "0.000000013788420618",
+    "gasUsed": "303_429",
+    "gasPrice": "45_442"
+  },
+  {
+    "totalGasUsed": "1_584_699",
+    "totalFee": "0"
+  }
+]
